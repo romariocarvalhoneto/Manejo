@@ -1,0 +1,46 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Manejo
+qgisMinimumVersion=3.0
+description=Managing Forest Areas Under The Power Lines Network
+version=0.1
+author=Carvalho Neto, R.M. and Sustembio Environmental Services
+email=romariocarvalho@hotmail.com
+
+about=It creates the network line from the network poles as points, creates the necessary layers for the evaluation, helps creating the network surrounding area of influence as a buffer and also the Preservation Areas - PA (APP in Portuguese) for springs and rivers through buffers as well. The analysis considers the managing area inside the network area of influence and the PA, giving a report table with the managing areas inside the PA as well as the areas outside the PA and inside the network area. For more information about the use, click on the help buttons in the plugin.
+tracker=https://github.com/romariocarvalhoneto/Manejo/issues
+repository=https://github.com/romariocarvalhoneto/Manejo
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=no
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=forest, power, lines, APP, preservation, areas, manejo, buffer
+
+homepage=https://www.sustembio.com/
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
